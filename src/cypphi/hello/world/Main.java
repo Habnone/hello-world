@@ -65,6 +65,32 @@ public class Main {
     public static String yUppercase = "Y";
     public static String zUppercase = "Z";
 
+    // Numbers
+    public static String one = "1";
+    public static String two = "2";
+    public static String three = "3";
+    public static String four = "4";
+    public static String five = "5";
+    public static String six = "6";
+    public static String seven = "7";
+    public static String eight = "8";
+    public static String nine = "9";
+
+    // Special characters
+    public static String exclamationMark = "!";
+    public static String at = "@";
+    public static String hashtag = "#";
+    public static String dollarSign = "$";
+    public static String percentSign = "%";
+    public static String upFacingCarrot = "^";
+    public static String andSymbol = "&";
+    public static String star = "*";
+    public static String parenthesisOpen = "(";
+    public static String parenthesisClose = ")";
+    public static String minus = "-";
+    public static String underscore = "_";
+    public static String plus = "+";
+    public static String is = "=";
 
     // main method to make the program and it's efficient code function
     public static void main(String[] args) {
