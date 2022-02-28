@@ -77,6 +77,7 @@ public class Main {
     public static String nine = "9";
 
     // Special characters
+    public static String space = " ";
     public static String exclamationMark = "!";
     public static String at = "@";
     public static String hashtag = "#";
@@ -91,6 +92,13 @@ public class Main {
     public static String underscore = "_";
     public static String plus = "+";
     public static String is = "=";
+    public static String comma = ",";
+    public static String period = ".";
+    public static String leftFacingCarrot = "<";
+    public static String rightFacingCarrot = ">";
+    public static String slash = "/";
+    public static String backSlash = "\\";
+    public static String questionMark = "?";
 
     // main method to make the program and it's efficient code function
     public static void main(String[] args) {
@@ -98,7 +106,7 @@ public class Main {
         if (isTrue) {
             if (isActuallyTrue) {
                 // print out "Hello World!"
-                System.out.println("Hello World!");
+                System.out.println(hUppercase + e + l + l + o + space + wUppercase + o + r + l + d + exclamationMark);
             }
         }
     }
