@@ -1,4 +1,4 @@
-# Hello World!
+# Hello World
 Hello World written in the most effective way possible
 ## Contributing
 Contributions are allowed. Just make sure that your pull request doesn't match any of the following criteria:
