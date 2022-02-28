@@ -122,8 +122,9 @@ public class Main {
         if (isTrue = trueStatement) {
             if (isActuallyTrue = !falseStatement) {
                 // print out "Hello World!"
-                String helloWorld = "" + hUppercase + e + l + l + o + space + wUppercase + o + r + l + d + exclamationMark;
-                System.out.println(helloWorld);
+                String wordHello = hUppercase + e + l + l + o;
+                String wordWorld = wUppercase + o + r + l + d;
+                System.out.println(wordHello + space + wordWorld + exclamationMark);
             }
         }
     }
