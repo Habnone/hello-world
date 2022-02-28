@@ -1,6 +1,9 @@
 // java package
 package cypphi.hello.world;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class Main {
 
     // Making sure true is actually true
@@ -11,6 +14,13 @@ public class Main {
     // Boolean statements (easier to remember)
     public static boolean trueStatement = true;
     public static boolean falseStatement = false;
+
+    // Time stuff
+    static LocalDateTime currentDateAndTime = LocalDateTime.now();
+    static DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+    static String currentTime = currentDateAndTime.format(timeFormatter);
+    static String currentTimeToString = currentTime.toString();
+    public static String timePrefix = "[" + currentTimeToString + "]";
 
     // Here I store all letters as strings so I can access them more easily.
     // Lowercase letters
@@ -124,7 +134,7 @@ public class Main {
                 // print out "Hello World!"
                 String wordHello = hUppercase + e + l + l + o;
                 String wordWorld = wUppercase + o + r + l + d;
-                System.out.println(wordHello + space + wordWorld + exclamationMark);
+                System.out.println(timePrefix + space + wordHello + space + wordWorld + exclamationMark);
             }
         }
     }
