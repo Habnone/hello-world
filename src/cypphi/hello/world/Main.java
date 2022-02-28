@@ -2,13 +2,17 @@
 package cypphi.hello.world;
 
 public class Main {
+
     // Making sure true is actually true
     public static boolean isTrue = true;
     // An extra check to make sure isTrue is actually true
     public static boolean isActuallyTrue = isTrue;
 
-    // Here I store all letters as strings so I can access them more easily.
+    // Boolean statements (easier to remember)
+    public static boolean trueStatement = true;
+    public static boolean falseStatement = false;
 
+    // Here I store all letters as strings so I can access them more easily.
     // Lowercase letters
     public static String a = "a";
     public static String b = "b";
@@ -66,15 +70,27 @@ public class Main {
     public static String zUppercase = "Z";
 
     // Numbers
-    public static String one = "1";
-    public static String two = "2";
-    public static String three = "3";
-    public static String four = "4";
-    public static String five = "5";
-    public static String six = "6";
-    public static String seven = "7";
-    public static String eight = "8";
-    public static String nine = "9";
+    public static int zero = 0;
+    public static int one = 1;
+    public static int two = 2;
+    public static int three = 3;
+    public static int four = 4;
+    public static int five = 5;
+    public static int six = 6;
+    public static int seven = 7;
+    public static int eight = 8;
+    public static int nine = 9;
+
+    public static String zeroToString = Integer.toString(zero);
+    public static String oneToString = Integer.toString(one);
+    public static String twoToString = Integer.toString(two);
+    public static String threeToString = Integer.toString(three);
+    public static String fourToString = Integer.toString(four);
+    public static String fiveToString = Integer.toString(five);
+    public static String sixToString = Integer.toString(six);
+    public static String sevenToString = Integer.toString(seven);
+    public static String eightToString = Integer.toString(eight);
+    public static String nineToString = Integer.toString(nine);
 
     // Special characters
     public static String space = " ";
@@ -103,10 +119,11 @@ public class Main {
     // main method to make the program and it's efficient code function
     public static void main(String[] args) {
         // Check if isTrue = true;
-        if (isTrue) {
-            if (isActuallyTrue) {
+        if (isTrue = trueStatement) {
+            if (isActuallyTrue = !falseStatement) {
                 // print out "Hello World!"
-                System.out.println(hUppercase + e + l + l + o + space + wUppercase + o + r + l + d + exclamationMark);
+                String helloWorld = "" + hUppercase + e + l + l + o + space + wUppercase + o + r + l + d + exclamationMark;
+                System.out.println(helloWorld);
             }
         }
     }
