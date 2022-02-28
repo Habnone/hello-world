@@ -1,5 +1,5 @@
-# Hello World
-Hello word written in the most effective way possible
+# Hello World!
+Hello world written in the most effective way possible
 ## Contributing
 Contributions are allowed. Just make sure that your pull request doesn't match any of the following criteria:
 - Overkill code (no bracket spam, no empty string spam etc, you get it)
